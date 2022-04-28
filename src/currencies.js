@@ -599,6 +599,12 @@ var CURRENCIES = [{
         symbol: 'avax',
         validator: ETHValidator,
     },
+    {
+        name: 'Ravencoin',
+        symbol: 'rvn',
+        validator: BTCValidator,
+        addressTypes: { prod: ['3c', '7a'] }
+    },
 ];
 
 
